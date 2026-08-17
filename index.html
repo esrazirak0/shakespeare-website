@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>William Shakespeare</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>William Shakespeare</h1>
+    <p>The famous English writer and playwright</p>
+    <button id="darkModeBtn">Dark Mode</button>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#works">Works</a>
+    <a href="#life">Life</a>
+    <a href="#quote">Quote</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<main>
+
+<section id="about">
+    <h2>About Shakespeare</h2>
+    <p>
+        William Shakespeare was an English playwright, poet, and actor.
+        He is one of the most famous writers in English literature.
+    </p>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Born</h3>
+            <p>1564 in Stratford-upon-Avon, England.</p>
+        </div>
+
+        <div class="card">
+            <h3>Work</h3>
+            <p>He wrote plays, poems, and sonnets.</p>
+        </div>
+
+        <div class="card">
+            <h3>Known For</h3>
+            <p>His famous plays and influence on English literature.</p>
+        </div>
+    </div>
+</section>
+
+<section id="works">
+    <h2>Famous Works</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Hamlet</h3>
+            <p>A famous Shakespearean tragedy.</p>
+        </div>
+
+        <div class="card">
+            <h3>Macbeth</h3>
+            <p>A tragedy about ambition and power.</p>
+        </div>
+
+        <div class="card">
+            <h3>Romeo and Juliet</h3>
+            <p>A well-known story about two young lovers.</p>
+        </div>
+
+        <div class="card">
+            <h3>A Midsummer Night's Dream</h3>
+            <p>A popular Shakespearean comedy.</p>
+        </div>
+    </div>
+</section>
+
+<section id="life">
+    <h2>Important Years</h2>
+
+    <div class="timeline">
+        <p><strong>1564:</strong> Shakespeare was born.</p>
+        <p><strong>1590s:</strong> His work became increasingly popular in London.</p>
+        <p><strong>1599:</strong> The Globe Theatre became associated with his company.</p>
+        <p><strong>1616:</strong> Shakespeare died in Stratford-upon-Avon.</p>
+    </div>
+</section>
+
+<section id="quote">
+    <h2>Random Quote</h2>
+
+    <div class="quote-box">
+        <p id="quoteText">Click the button to get a quote.</p>
+        <button id="quoteBtn">Get Quote</button>
+    </div>
+
+    <p class="note">
+        This part uses JavaScript and fetch() to get data from an API.
+    </p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+
+    <form id="contactForm">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" required>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" rows="4" required></textarea>
+
+        <p id="counter">0 characters</p>
+
+        <button type="submit">Send</button>
+
+        <p id="result"></p>
+    </form>
+</section>
+
+</main>
+
+<footer>
+    <p>William Shakespeare | Web Development Project</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
